@@ -6,7 +6,7 @@ Minimal flask app that can be used to test cicd pipelines.
 
 Checkout the [Makefile](./Makefile) for how to run this this.
 
-### Locally
+### Build and run locally
 
 Create virtualenv: `python -m virtualenv .venv`
 
@@ -14,7 +14,7 @@ Source the venv and install the requirements with: `make install-local`
 
 Run flask app locally: `make run-local` or `flask run`
 
-### Inside a contaiiner
+### Build and run a container
 
 Build the container with `make build-docker` or `docker build -t flask`
 
